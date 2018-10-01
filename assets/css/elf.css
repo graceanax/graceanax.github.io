@@ -219,9 +219,6 @@
   .w-70, .w-50 { width: 95% !important; }
   .hero__video,
   .border-montain { display: none; }
-  p {
-    text-align: justify;
-  }
 
   /*------------------------------------*\
     $Styles
@@ -265,6 +262,9 @@
   }
   .products {
     padding: 2rem;
+  }
+  .product__item {
+    padding: 0;
   }
   
   .description__case { text-align: center; }
