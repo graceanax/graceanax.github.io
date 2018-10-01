@@ -1,0 +1,161 @@
+/*
+Theme Name: Elf
+Theme URI: 
+Author: Elf team - @gracenax
+Author URI: https://elearning.com.gt/
+Description: E-learning for life
+Version: 1.0.0
+Text Domain: elf
+*/
+
+/*------------------------------------*\
+    $RESET
+\*------------------------------------*/
+*, *:after, *:before { box-sizing: border-box; }
+html, body, h1, h2, h3, h4, h5, h6, ul, li, figure, .row {
+  margin: 0;
+  padding: 0;
+}
+figure img {
+  width: 100%;
+  height: 100%;
+}
+figure {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+a, a:hover { text-decoration: none; }
+body {
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+}
+nav ul, .no-list { list-style: none; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.7rem; }
+h4 { font-size: 1.5rem; }
+/*------------------------------------*\
+    $BOOTSTRAP STYLES
+\*------------------------------------*/
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.card {
+  box-shadow: 0px 0px 10px #d4d4d4;
+}
+.btn {
+  transition: 0.3s;
+}
+.btn:hover{
+  opacity: 0.8;
+  color: #fff;
+}
+.footer .nav-link {
+  transition: 0.3s;
+}
+.footer .nav-link:hover{
+  opacity: 0.8;
+  color: #fff;
+}
+.header .nav-item {
+  margin-right: 2rem;
+  font-weight: bold;
+}
+.header .nav-link {
+  position: relative;
+  padding: 0 1rem !important;
+}
+.header .nav-link::after {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: rgba(255,255,255,1);
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+.header .nav-link:hover::after,
+.header .nav-link:focus::after {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+/*------------------------------------*\
+    $THEME
+\*------------------------------------*/
+.t-bold {
+  font-weight: bold;
+}
+.t-white { color: #ffffff; }
+.t-black { color: #000000; }
+.t-gray { color: #274A53; }
+.t-pink { color: #F0978B; }
+.t-darkgray { color: #043F4D; }
+.t-darkpink { color: #CD6C5F; }
+
+.t-black__hover:hover { color: #000000; }
+.t-white__hover:hover { color: #ffffff; }
+.t__gray-hover:hover { color: #274A53; }
+.t__pink-hover:hover { color: #F0978B; }
+.t__darkgray-hover:hover { color: #043F4D; }
+.t__darkpink-hover:hover { color: #CD6C5F; }
+
+.b-white { background-color: #ffffff; }
+.b-black { background-color: #000000; }
+.b-gray { background-color: #274A53; }
+.b-pink { background-color: #F0978B; }
+.b-darkgray { background-color: #043F4D; }
+.b-darkpink { background-color: #CD6C5F; }
+.b-lightgray { background-color: #F5f5f5 }
+
+.b__white-hover:hover { background-color: #ffffff; }
+.b__black-hover:hover { background-color: #000000; }
+.b__gray-hover:hover { background-color: #274A53; }
+.b__pink-hover:hover { background-color: #F0978B; }
+.b__darkgray-hover:hover { background-color: #043F4D; }
+.b__darkpink-hover:hover { background-color: #CD6C5F; }
+
+.t-center { text-align: center; }
+.e-center { 
+  margin-left: auto;
+  margin-right: auto;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.w-80 { width: 80%; }
+.w-70 { width: 70%; }
+.w-50 { width: 50%; }
+.j-center { justify-content: center; }
+.j-end { justify-content: flex-end; }
+.a-center { align-items: center; }
+.a-end { align-items: flex-end; }
+.full-width { width: 100%; }
+.full-height { height: 100%; }
+.strong { font-weight: bold; }
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.title-spacing {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+} 
+.title-double-spacing {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+} 
+.border-none { border: none; }
+.p-absolute { position: absolute; }
+.p-fixed { position: fixed; }
+.p-relative { position: relative; }

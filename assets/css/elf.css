@@ -1,0 +1,332 @@
+/*------------------------------------*\
+    $HERO
+\*------------------------------------*/
+.header {
+  height: 40rem;
+  overflow: hidden;
+}
+.header .logo {
+  width: 15rem;
+}
+.header__top {
+  padding: 1rem;
+}
+.header__info__subtitle {
+  padding: 1rem 0;
+}
+.hero__background {
+  background: #cd6c5f8a;
+  z-index: 3;
+}
+.hero__video {
+  position: absolute;
+  right: -64px;
+  top: -187px;
+  width: 50rem;
+  height: 50rem;
+  border-radius: 400px 400px 400px 400px;
+  overflow: hidden;
+}
+.header__nav {
+  z-index: 99;
+}
+#myVideo {
+  position: absolute;
+  height: 100%;
+}
+/*------------------------------------*\
+    $PRODUCTS
+\*------------------------------------*/
+.products {
+  padding: 3rem 0;
+}
+.product__item .card {
+  padding: 3rem;
+}
+.product__item .btn {
+  margin-top: 3rem;
+}
+/*------------------------------------*\
+    $DESCRIPTION
+\*------------------------------------*/
+.description__case {
+  padding: 3rem;
+}
+.description__img {
+  height: 12rem;
+}
+.description__case:first-child {
+  order: 1;
+}
+.description__case:nth-child(2) {
+  order: 2;
+}
+.description__case:nth-child(3) {
+  order: 3;
+}
+.description__case:nth-child(4) {
+  order: 4;
+}
+.description__case:nth-child(5) {
+  order: 5;
+}
+.description__case:nth-child(6) {
+  order: 6;
+}
+
+/*------------------------------------*\
+    $FOOTER
+\*------------------------------------*/
+.footer {
+  padding-bottom: 1rem;
+}
+.footer__logo {
+  width: 12rem;
+  margin: 0 auto 1rem !important;
+  display: block;
+}
+.footer__nav {
+  bottom: 1rem;
+  left: 1rem;;
+}
+.footer__page {
+  padding-bottom: 10rem;
+  margin-bottom: -6rem;
+}
+/*------------------------------------*\
+    $ABOUT
+\*------------------------------------*/
+.values .nav-item {
+  padding: 1rem 2rem;
+}
+.values .icon {
+  margin-right: .3rem;
+}
+.values__container {
+  padding: 3rem 0;
+}
+.mision .icon {
+  margin-right: 1rem;
+  font-size: 1.7rem;
+}
+.mision p {
+  margin: 0;
+}
+.mision li {
+  padding: 0 0 2rem 2rem
+}
+.plataforma__img {
+  text-align: center;
+}
+.plataforma__img img {
+  height: 12rem;
+  width: 12rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 50%;
+}
+.plataforma__case {
+  padding: 1.5rem;
+}
+.plataforma__case:first-child {
+  order: 1;
+}
+.plataforma__case:nth-child(2) {
+  order: 2;
+}
+.plataforma__case:nth-child(3) {
+  order: 3;
+}
+.plataforma__case:nth-child(4) {
+  order: 4;
+}
+.plataforma__case:nth-child(5) {
+  order: 5;
+}
+.plataforma__case:nth-child(6) {
+  order: 6;
+}
+/*------------------------------------*\
+    $PLANS
+\*------------------------------------*/
+.plans__item .card {
+  padding: 2rem;
+}
+.plans__item:nth-child(2) .card {
+  border: 3px solid #F0978B
+}
+.plans__item p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.plans__item .icon {
+  font-size: 1.4rem;
+  margin-right: 1rem;
+}
+.plans__item .nav-item {
+  margin-bottom: .5rem;
+}
+.plans__item .card__img {
+  height: 11rem;
+}
+.plans__item .card-action {
+  margin-top: 1rem;
+}
+.caracteristica__subitem {
+  border-left: 6px solid #cd6c5f;
+}
+.caracteristica__case {
+  padding: 1.5rem 1rem 1.5rem 1rem;
+}
+.tab__action .tablinks {
+  display: inline-block;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.tab__action .active {
+  border-bottom: 4px solid #cd6c5f;
+}
+/*------------------------------------*\
+    $COMPONENTS
+\*------------------------------------*/
+.section__sub {
+  padding: .5rem 0 3rem;
+}
+
+.border-montain {
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  height: 5rem;
+  margin-top: 3rem;
+  margin-bottom: -2rem;
+}
+
+.margin-bottom-2 {
+  margin-bottom: 2rem;
+}
+
+/*------------------------------------*\
+    $RESPONSIVE
+\*------------------------------------*/
+@media (min-width: 768px) {
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  .w-70, .w-50 { width: 95% !important; }
+  .hero__video,
+  .border-montain { display: none; }
+  p {
+    text-align: justify;
+  }
+
+  /*------------------------------------*\
+    $Styles
+  \*------------------------------------*/
+  .header {
+    height: auto;
+    text-align: center;
+    padding: 0 0 3rem 0;
+  }
+  .header .t-darkgray {
+    color: #fff;
+  }
+  .header .b-darkgray {
+    background-color: #cd6c5f;
+  }
+  .header__logo .logo {
+    margin: 0 !important;
+    width: 12rem;
+  }
+  .header__top {
+    padding: 0;
+    background: #043f4d;
+  }
+  .header .navbar-toggler {
+    position: absolute;
+    top: -38px;
+    right: 8px;
+  }
+  .header .nav-item {
+    margin: 0;
+    padding: .5rem;
+  }
+  .footer { padding: 1rem; }
+  .footer__nav {
+    position: initial;
+  }
+  .footer__nav .nav {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .products {
+    padding: 2rem;
+  }
+  
+  .description__case { text-align: center; }
+
+  .description__case:first-child {
+    order: 2;
+  }
+  .description__case:nth-child(2) {
+    order: 1;
+  }
+  .description__case:nth-child(3) {
+    order: 3;
+  }
+  .description__case:nth-child(4) {
+    order: 4;
+  }
+  .description__case:nth-child(5) {
+    order: 6;
+  }
+  .description__case:nth-child(6) {
+    order: 5;
+  }
+
+  .plataforma__case:first-child {
+    order: 1;
+  }
+  .plataforma__case:nth-child(2) {
+    order: 2;
+  }
+  .plataforma__case:nth-child(3) {
+    order: 4;
+  }
+  .plataforma__case:nth-child(4) {
+    order: 3;
+  }
+  .plataforma__case:nth-child(5) {
+    order: 5;
+  }
+  .plataforma__case:nth-child(6) {
+    order: 6;
+  }
+  .product__item { margin-bottom: 2rem; }
+  .mobile-header {
+    background: linear-gradient(rgba(4, 63, 77, .7), rgba(4, 63, 77, .7)), url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 0;
+  }
+  .values .nav {
+    display: block;
+  }
+  .mision li {
+    padding: 0 0 2rem 0;
+  }
+  .plans .card {
+    margin-bottom: 2rem;
+  }
+  .plans__item p {
+    text-align: left;
+  }
+  .plans {
+    padding-top: 2rem;
+    margin-top: -3rem;
+  }
+}
